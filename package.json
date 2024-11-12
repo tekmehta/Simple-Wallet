@@ -1,0 +1,14 @@
+{
+    "name": "mar",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "concurrently \"npm start --prefix front\" \"npm start --prefix transfer\""
+    },
+    "devDependencies": {
+        "concurrently": "^7.6.0"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "react-router-dom": "^6.28.0"
+    }
+}
